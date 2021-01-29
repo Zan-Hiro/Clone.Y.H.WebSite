@@ -1,0 +1,193 @@
+body{
+  padding-top: 70px;
+  color: #796A77;;
+}
+
+.under-bar{
+  color: #282828;
+  z-index: 100000;  /* 消す */
+}
+
+.under-bar li{
+  color: #282828;
+  z-index: 100000;  /* 消す */
+}
+
+/* javascript(header chage color) start*/
+.chagebackground{
+  background-color: #D5ECF3;
+  opacity: 0.7;
+}
+/* javascript(header chage color) end_*/
+
+.section-content{
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  margin: 0 auto;
+}
+
+.section-content .headline{
+  width: 100%;
+  padding-bottom: 35px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.section-content .headline h2{
+  font-size: 28px;
+  font-weight: 100;
+  color: #4D4357;
+  line-height: 1.8;
+  letter-spacing: 0.2rem;
+  padding-top: 60px;
+}
+
+.section-content .headline h2::after{
+  content: "";
+  width: 30px;
+  display: block;
+  border-bottom: 1px solid #282828;
+  padding-bottom: 15px;
+  margin: 0 auto;
+} 
+
+.discography-content{
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.discography-block{
+  display: flex;
+  padding: 50px;
+  max-width: 1100px;
+  background-color: #F5FBFF;
+  justify-content: center;
+  margin: 0 auto;
+
+}
+
+.discography-img{
+  width:100%;
+}
+
+.discography-img img{
+  width: 100%;
+}
+
+.discography-text{
+  width: 100%;
+  padding: 0 50px 50px 50px;
+}
+
+.discography-name .date{
+  font-size: 11px;
+  color: #796A77;
+  line-height: 1.8;
+}
+
+.discography-text .discography-name {
+  padding-top: 0;
+}
+
+.discography-name .detail{
+  font-size: 14px;
+  color: #796A77;
+  line-height: 1.8;
+}
+
+.discography-name .single-title{
+  font-size: 16px;
+  color: #796A77;
+  line-height: 1.8;
+}
+
+.discography-name{
+  line-height: 1.8;
+} 
+
+.discography-name{
+  padding: 25px 0;
+  font-size: 14px;
+  border-bottom: 1px solid #b7b5bd;
+  line-height: 1.8;
+}
+
+.discography-data .music-icon,
+.discography-download .cart-icon{
+  display: flex;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: #796A77;
+}
+
+.discography-data .music-icon::before{
+  content: url(../img/hero_img_01.svg); width:11.766px; height: 21px; 
+  position: absolute;
+  left: 0;
+  color: #796A77;
+}
+
+
+.discography-data-download .cart-icon::before{
+  content: url(../img/icon_cart.svg); width:11.766px; height: 21px; 
+  position: absolute;
+  left: 0;
+  color: #796A77;
+}
+
+.discography-data-streaming{
+  padding-top: 25px;
+}
+
+.discography-data-streaming ul,
+.discography-data-download ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.discography-data-download{
+  padding: 25px 0;
+  font-size: 14px;
+  border-bottom: 1px solid #b7b5bd;
+  line-height: 1.8;
+}
+
+.discography-name{
+  padding: 25px 0;
+}
+
+@media only screen and (max-width:768px){
+  .discography-content{
+    width: 100%;
+  }
+  .discography-block{
+    width: 100%;
+    flex-direction: column;
+    padding: 20px 20px 50px;
+  }
+  .discography-img{
+    width: 100%;
+  }
+  .discography-text{
+
+    width: 100%;
+    padding: 30px 0 0;
+  }
+ .discography-block {
+  flex-direction: column;
+  width: 100vw;
+}
+.discography-name{
+  width: 100%;
+}
+li a img{
+  width: 100px;
+}
+}

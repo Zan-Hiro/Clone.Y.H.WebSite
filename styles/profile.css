@@ -1,0 +1,119 @@
+body{
+  padding-top: 70px;
+  color: #796A77;;
+}
+
+/* javascript(header chage color) start*/
+.chagebackground{
+  background-color: #D5ECF3;
+  opacity: 0.7;
+}
+/* javascript(header chage color) end_*/
+
+.section-content{
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  margin: 0 auto;
+}
+
+.section-content .headline{
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.section-content .headline h2{
+  font-size: 28px;
+  font-weight: 100;
+  color: #4D4357;
+  line-height: 1.8;
+  letter-spacing: 0.2rem;
+  padding-top: 60px;
+}
+
+.section-content .headline h2::after{
+  content: "";
+  width: 30px;
+  display: block;
+  border-bottom: 1px solid #282828;
+  padding-bottom: 15px;
+  margin: 0 auto;
+}
+
+.profile-content{
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.profile-block{
+  display: flex;
+  padding: 50px;
+  max-width: 1100px;
+  background-color: #F5FBFF;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.profile-img{
+  width:100%;
+}
+
+.profile-img img{
+  width: 100%;
+}
+
+.profile-text{
+  width: 100%;
+  padding: 0 50px 50px 50px;
+}
+
+.profile-name .jp{
+  font-size: 16px;
+}
+
+.profile-name .en{
+  font-size: 12px;
+}
+
+.profile-name{
+  border-bottom: 1px solid #b7b5bd;
+  line-height: 1.8;
+  padding-bottom: 25px;
+} 
+
+.profile-data{
+  padding: 25px 0;
+  font-size: 14px;
+  border-bottom: 1px solid #b7b5bd;
+  line-height: 1.8;
+}
+
+.profile-history{
+  display: block;
+  padding-top: 25px;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.under-bar{
+  color: #282828;
+}
+
+.under-bar li{
+  color: #282828;
+}
+
+@media only screen and (max-width:768px){
+  .profile-block{
+  flex-direction: column;
+  padding: 20px 20px 50px;
+  }
+  .profile-block .profile-text .profile-data .profile-history{
+    width: 100%;
+    padding: 30px 0 0;
+  }
+}
